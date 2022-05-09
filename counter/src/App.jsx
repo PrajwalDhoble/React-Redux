@@ -6,8 +6,6 @@ import {decNumber} from "./actions";
 import { useSelector, useDispatch } from "react-redux";
 
 const App = () => {
-
-  // it alternative to the useContext hooks in react / consumer from context API
   const changeTheNumber = useSelector(state => state.changeTheNumber);
   
   const dispatch = useDispatch();
